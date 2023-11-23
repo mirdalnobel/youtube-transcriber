@@ -5,7 +5,7 @@ from time import sleep
 import openai
 
 # Set your OpenAI API key
-openai.api_key = 'your_openai_api_key'
+openai.api_key = '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'
 
 if 'status' not in st.session_state:
     st.session_state['status'] = 'submitted'
